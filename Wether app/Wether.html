@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Wether.css">
+    <title>Wether app</title>
+</head>
+<body>
+    <div class="card">
+
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="search.png" ></button>
+        </div>
+        <div class="error">
+            <P>Invalid city name</P>
+        </div>
+
+        <div class="weather">
+            <img src="rain.png" alt="" class="weathricon">
+            <hi class="temp">22°C</hi>
+            <h2 class="city">New York</h2>
+
+            <div class="detail">
+                <div class="col">
+                    <img src="humidity.png" alt="">
+                    <div>
+                       <p class="humidity">50%</p>
+                       <p>humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="wind.png" alt="">
+                    <div>
+                       <p class="wind">20km </p>
+                       <p>wind Speed</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="wether.js"></script>
+</body>
+</html>
